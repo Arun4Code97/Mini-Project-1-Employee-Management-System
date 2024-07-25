@@ -23,11 +23,11 @@ http://localhost:3000</br></br></br>
 </ul></br></br>
 &nbsp;&nbsp;<b>Frontend Project  Structure:- [Project Name -EMS-Frontend]</b></br>
 <ul>
-   <li>src/components:	 Contains the React components and related files.</li>
+   <li>src/components:	Contains the React components and related files.</li>
    <li>src/service : 	Contains the configuration of Axios Http Client Library </li>
    <li>src/App.jsx : 	Contains the Routes file</li>
    <li>package.json: 	npm configuration file.</li>
-   <li>vite.config.js : 	Vite configuration file.</li>
+   <li>vite.config.js : Vite configuration file.</li>
 </ul></br></br>
 
 <b>Note:</b>&nbsp; Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.</br>
