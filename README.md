@@ -35,4 +35,4 @@ http://localhost:3000</br></br></br>
    </li>
 </ul>
 
-<b>Note:</b>&nbsp; Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.</br>
+<b>Note:</b>&nbsp; Please refer **project documentation** where I have mentioned how to set up and execute my porject in your machine.</br>
