@@ -11,9 +11,8 @@
     <p>&nbsp;&nbsp;Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine. </br> http://localhost:3000
     </p>
   
-    <p>Screenshot of final Website page of EMS
-      ![image](https://github.com/user-attachments/assets/7bf6af4f-173e-4986-a753-1668a735c95b)
-    </p>
+    <p>Screenshot of final Website page of EMS </p>
+     ![image](https://github.com/user-attachments/assets/7bf6af4f-173e-4986-a753-1668a735c95b)
     
 
 <b>Full Stack Project  Structure:-</b>
