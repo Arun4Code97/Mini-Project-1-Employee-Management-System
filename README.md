@@ -1,12 +1,12 @@
 # Mini-Project-1---Emploee-Management-System-
-Employee Management Application 
+Employee Management Application</br>
 Overview: -
     I have built the full-stack web application that is a basic Employee Management Application with below CRUD operations.
-•	Create Employee
-•	List Employee
-•	Update Employee
-•	Delete Employee
-•	View Employee
+•	Create Employee</br>
+•	List Employee</br>
+•	Update Employee</br>
+•	Delete Employee</br>
+•	View Employee</br>
     Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine.
 http://localhost:3000
 
