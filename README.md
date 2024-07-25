@@ -15,7 +15,7 @@
 http://localhost:3000</br></br></br>
 
 <b>Full Stack Project  Structure:-</b></br></br>
-&nbsp;&nbsp;<b>Backend Project  Structure:- [Project Name - EMS-Backend]</b></br>
+&nbsp;&nbsp;<b>Backend Project  Structure:- [Project Name - EMS-Backend]</b>
 <ul>
     <li>src/main/java: 	Contains the Java source files.</li>
     <li>src/main/resources: 	Contains application properties files.</li>
