@@ -14,14 +14,14 @@
 
 http://localhost:3000</br></br></br>
 
-Full Stack Project  Structure:-</br></br>
-&nbsp;&nbsp;Backend Project  Structure:- <b>[Project Name - EMS-Backend],</b></br>
+<b>Full Stack Project  Structure:-</b></br></br>
+&nbsp;&nbsp;<b>Backend Project  Structure:- [Project Name - EMS-Backend]</b></br>
 <ul>
     <li>src/main/java: 	Contains the Java source files.</li>
     <li>src/main/resources: 	Contains application properties files.</li>
     <li>pom.xml: 		Maven configuration file.</li>
 </ul></br></br>
-&nbsp;&nbsp;Frontend Project  Structure:-<b>[Project Name -EMS-Frontend]</b></br>
+&nbsp;&nbsp;<b>Frontend Project  Structure:- [Project Name -EMS-Frontend]</b></br>
 <ul>
    <li>src/components:	 Contains the React components and related files.</li>
    <li>src/service : 	Contains the configuration of Axios Http Client Library </li>
