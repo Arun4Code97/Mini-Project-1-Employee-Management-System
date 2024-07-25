@@ -20,7 +20,7 @@ http://localhost:3000</br></br></br>
     <li>src/main/java: 	Contains the Java source files.</li>
     <li>src/main/resources: 	Contains application properties files.</li>
     <li>pom.xml: 		Maven configuration file.</li>
-</ul></br></br>
+</ul>
 &nbsp;&nbsp;<b>Frontend Project  Structure:- [Project Name -EMS-Frontend]</b></br></br>
 <ul>
    <li>src/components:	Contains the React components and related files.</li>
