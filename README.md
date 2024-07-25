@@ -18,6 +18,7 @@
       &nbsp;&nbsp;<b>Backend Project  Structure:- [Project Name - EMS-Backend]</b>
       <ul>
        <li>src/main/java: 	Contains the Java source files.</li>
+       <li> src/test: 		contains service layer test files.</li>
        <li>src/main/resources: 	Contains application properties files.</li>
        <li>pom.xml: 		Maven configuration file.</li>
       </ul>
