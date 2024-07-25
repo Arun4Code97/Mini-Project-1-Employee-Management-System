@@ -21,7 +21,7 @@ http://localhost:3000</br></br></br>
     <li>src/main/resources: 	Contains application properties files.</li>
     <li>pom.xml: 		Maven configuration file.</li>
 </ul>
-&nbsp;&nbsp;<b>Frontend Project  Structure:- [Project Name -EMS-Frontend]</b>
+&nbsp;&nbsp;<b>Frontend Project  Structure:- [Project Name -EMS-Frontend]</b></br>
 <ul>
    <li>src/components:	Contains the React components and related files.</li>
    <li>src/service : 	Contains the configuration of Axios Http Client Library </li>
