@@ -9,23 +9,26 @@
 <li>Delete Employee</li>
 <li>View Employee</li>
 </ul>
-    <p>Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine.</p></br>
+    <p>&nbsp;&nbsp;Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine.</p></br>
     ![image](https://github.com/user-attachments/assets/7bf6af4f-173e-4986-a753-1668a735c95b)
 
 http://localhost:3000</br></br></br>
 
 Full Stack Project  Structure:-</br></br>
-Backend Project  Structure:- [Project Name - EMS-Backend]</br>
-•	src/main/java: 	Contains the Java source files.</br>
-•	src/main/resources: 	Contains application properties files.</br>
-•	pom.xml: 		Maven configuration file.</br></br>
-Frontend Project  Structure:-[Project Name -EMS-Frontend]</br>
-•	src/components:	 Contains the React components and related files.</br>
-•	src/service : 	Contains the configuration of Axios Http Client Library </br>
-•	src/App.jsx : 	Contains the Routes file</br>
-•	package.json: 	npm configuration file.</br>
-•	vite.config.js : 	Vite configuration file.</br></br>
+&nbsp;&nbsp;Backend Project  Structure:- <b>[Project Name - EMS-Backend],</b></br>
+<ul>
+    <li>src/main/java: 	Contains the Java source files.</li>
+    <li>src/main/resources: 	Contains application properties files.</li>
+    <li>pom.xml: 		Maven configuration file.</li>
+</ul></br></br>
+&nbsp;&nbsp;Frontend Project  Structure:-<b>[Project Name -EMS-Frontend]</b></br>
+<ul>
+   <li>src/components:	 Contains the React components and related files.</li>
+   <li>src/service : 	Contains the configuration of Axios Http Client Library </li>
+   <li>src/App.jsx : 	Contains the Routes file</li>
+   <li>package.json: 	npm configuration file.</li>
+   <li>vite.config.js : 	Vite configuration file.</li>
+</ul>
 
-
-Note:</br>
-Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.</br>
+<b>Note:</b></br>
+&nbsp;Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.</br>
