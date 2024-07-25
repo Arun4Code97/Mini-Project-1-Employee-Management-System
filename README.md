@@ -1,27 +1,27 @@
 # Mini-Project-1---Emploee-Management-System-
 Employee Management Application</br>
-Overview: -
-    I have built the full-stack web application that is a basic Employee Management Application with below CRUD operations.
+Overview: -e</br>
+    I have built the full-stack web application that is a basic Employee Management Application with below CRUD operations.e</br>
 •	Create Employee</br>
 •	List Employee</br>
 •	Update Employee</br>
 •	Delete Employee</br>
 •	View Employee</br>
-    Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine.
-http://localhost:3000
+    Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this below URL in your browser after running my project in your local machine.</br>
+http://localhost:3000 </br></br></br>
 
-Full Stack Project  Structure:-
-Backend Project  Structure:- [Project Name - EMS-Backend]
-•	src/main/java: 	Contains the Java source files.
-•	src/main/resources: 	Contains application properties files.
-•	pom.xml: 		Maven configuration file.
-Frontend Project  Structure:-[Project Name -EMS-Frontend]
-•	src/components:	 Contains the React components and related files.
-•	src/service : 	Contains the configuration of Axios Http Client Library 
-•	src/App.jsx : 	Contains the Routes file
-•	package.json: 	npm configuration file.
-•	vite.config.js : 	Vite configuration file.
+Full Stack Project  Structure:-</br></br>
+Backend Project  Structure:- [Project Name - EMS-Backend]</br>
+•	src/main/java: 	Contains the Java source files.</br>
+•	src/main/resources: 	Contains application properties files.</br>
+•	pom.xml: 		Maven configuration file.</br></br>
+Frontend Project  Structure:-[Project Name -EMS-Frontend]</br>
+•	src/components:	 Contains the React components and related files.</br>
+•	src/service : 	Contains the configuration of Axios Http Client Library </br>
+•	src/App.jsx : 	Contains the Routes file</br>
+•	package.json: 	npm configuration file.</br>
+•	vite.config.js : 	Vite configuration file.</br></br>
 
 
-Note:
-Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.
+Note:</br>
+Please refer project documentation where I have mentioned how to set up and execute my porject in your machine.</br>
