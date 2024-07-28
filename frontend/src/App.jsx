@@ -8,7 +8,7 @@ import HeaderComponent from './components/HeaderComponent'
 import FooterComponent from './components/FooterComponent'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import EmployeeComponent from './components/EmployeeComponent'
-
+// Perform routing operations according to the entered Url
 function App() {
 
 
