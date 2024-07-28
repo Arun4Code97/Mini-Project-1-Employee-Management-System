@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { listEmployees, removeEmployee } from '../services/EmployeeService'
 import { useNavigate } from 'react-router-dom'
 
-
+// List EmployeeComponent will be rendered as default or web application first page
 const ListEmployeeComponent = () => {
     
     const [employees,setEmployees]=useState([]);
@@ -14,6 +14,7 @@ const ListEmployeeComponent = () => {
             )
 
     const navigator= useNavigate(); 
+
     function getAllEmployees(){
         listEmployees().then(
             (response)  =>

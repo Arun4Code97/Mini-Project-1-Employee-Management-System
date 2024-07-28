@@ -1,9 +1,9 @@
 import React, { useState,useEffect } from 'react'
 import { createEmployee, getEmployee, updateEmployee } from '../services/EmployeeService';
 import { useNavigate,useParams,useLocation } from 'react-router-dom';
-
+// will be rendered this same Employeecomponent for adding/viewing/updating purpose
 const EmployeeComponent = () => {
-
+  
     const [firstName,setFirstName]=useState('');
     const [lastName,setLastName]=useState('');
     const [email,setEmail]=useState('');
@@ -13,9 +13,6 @@ const EmployeeComponent = () => {
         lastName: '',
         email:''
                 });
-
-
-
    
 
     const navigator = useNavigate();
@@ -27,10 +24,7 @@ const EmployeeComponent = () => {
     const currentpath =currentLocation.pathname;   // currentpath === `/view-employee/${employeeId}`
     const viewEmployee = currentpath.includes("/view-employee/");  
 
-
-
-
-
+    //Changing page employee card header details according to the operation performed by user.
     function pageTitle(){
                             if( viewEmployee )
                             return  <h2 className='text-center'>  Employee details</h2>; 
@@ -61,7 +55,6 @@ const EmployeeComponent = () => {
     const handleLastName = (e) => setLastName(e.target.value);
     
  
-   
     function saveOrUpdateEmployee(e) {
 
         e.preventDefault();
@@ -93,7 +86,7 @@ const EmployeeComponent = () => {
                              }
                              }     
 
-
+//Validation for the form input fields
 
     function validateForm(){
         let valid = true;
