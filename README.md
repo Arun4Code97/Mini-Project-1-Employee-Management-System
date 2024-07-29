@@ -10,7 +10,8 @@
 </ul>
 <p>&nbsp; &nbsp; Here, I developed the website using Spring boot and React Js. Attached below is final version of Employee Management Application when you search this URL - http://localhost:3000  in your browser after running my project in your local machine.</br></p>
    
-![ Screenshot of final Website page of EMS](https://github.com/user-attachments/assets/7bf6af4f-173e-4986-a753-1668a735c95b)
+![image](https://github.com/user-attachments/assets/f9759116-3382-4cd1-9716-a808eddea4fe)
+
     </br></br>
 <b>Full Stack Project  Structure:-</b>
 <ul>
