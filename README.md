@@ -12,7 +12,7 @@
    
 ![image](https://github.com/user-attachments/assets/f9759116-3382-4cd1-9716-a808eddea4fe)
 
-    </br></br>
+    
 <b>Full Stack Project  Structure:-</b>
 <ul>
    <li>
