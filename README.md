@@ -37,3 +37,5 @@
 </ul>
 
 <b>Note:</b>&nbsp; Please refer **EMS - Setup,configure and Run Document.docx** where I have mentioned how to set up and execute my project in your machine.</br>
+&nbsp; Please refer API end points Request and response documentation by visiting to here http://localhost:8080/swagger-ui/index.html#/
+
