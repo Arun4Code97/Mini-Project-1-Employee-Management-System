@@ -81,10 +81,16 @@ const EmployeeComponent = () => {
                     console.log(response.data);
                     navigator("/employees");
                              }
-                ).catch(error => console.error(error));
+                ).catch((error)=> {if (error.response && error.response.status === 302) { // 302  is the status code for found already (email already exists)
+                    setErrors({ ...errors, email: 'Email ID already exists' });
+                } else {
+                    console.error(error);
+                }
+            });
            }
                              }
                              }     
+
 
 //Validation for the form input fields
 
@@ -110,7 +116,7 @@ const EmployeeComponent = () => {
                 errorsCopy.email='';
                         }
         else{
-            errorsCopy.email="Email is required";
+            errorsCopy.email="Email is required ";
             valid=false;
             }     
             
