@@ -36,4 +36,7 @@
    </li>
 </ul>
 
-<b>Note:</b>&nbsp; Please refer **project documentation** where I have mentioned how to set up and execute my project in your machine.</br>
+<b>Note:</b>&nbsp; Please refer **EMS - Setup,configure and Run Document.docx** where I have mentioned how to set up and execute my project in your machine.</br>
+&nbsp; &nbsp; &nbsp;Please refer API end points request and response details in **swagger(OpenAPI) documentation** by visiting this url http://localhost:8080/swagger-ui/index.html#/   </br>
+&nbsp; &nbsp; &nbsp;Ensure You have only **/api-docs in Open API Description path**, By default comes with v3/api-docs
+
