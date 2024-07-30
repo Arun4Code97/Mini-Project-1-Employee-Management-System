@@ -36,4 +36,4 @@
    </li>
 </ul>
 
-<b>Note:</b>&nbsp; Please refer **project documentation** where I have mentioned how to set up and execute my project in your machine.</br>
+<b>Note:</b>&nbsp; Please refer **EMS - Setup,configure and Run Document.docx** where I have mentioned how to set up and execute my project in your machine.</br>
