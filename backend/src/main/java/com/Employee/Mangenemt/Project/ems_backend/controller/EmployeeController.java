@@ -20,8 +20,8 @@ public class EmployeeController implements EmployeeAPI {
 
     @Autowired
     EmployeeServiceImpl employeeServiceImpl;
-
-    EmployeeValidator employeeValidator = new EmployeeValidator();
+    @Autowired
+    EmployeeValidator employeeValidator;
     //Build Add Employee REST API
     @PostMapping
     public ResponseEntity<?> createEmployee(@RequestBody EmployeeDto empDto)
@@ -33,7 +33,8 @@ public class EmployeeController implements EmployeeAPI {
           return new ResponseEntity<>(new ErrorResponse("Validation Error",validationErrors),HttpStatus.BAD_REQUEST);
         }
 
-            EmployeeDto savedEmployee = employeeServiceImpl.createEmployee(empDto);
+
+        EmployeeDto savedEmployee = employeeServiceImpl.createEmployee(empDto);
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED) ;
     }
 

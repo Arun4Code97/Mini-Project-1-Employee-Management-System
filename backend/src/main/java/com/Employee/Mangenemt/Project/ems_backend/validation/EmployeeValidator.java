@@ -8,8 +8,10 @@ import java.util.List;
 
 @Component
 public class EmployeeValidator {
-List<String> errorsList = new ArrayList<>();
+
     public List<String> validateCreateBookRequest(EmployeeDto employeeDto){
+        List<String> errorsList = new ArrayList<>();
+
         if(employeeDto.getFirstName() == null || employeeDto.getFirstName().isEmpty())
             errorsList.add("firstName is required");
         if(employeeDto.getLastName() == null || employeeDto.getLastName().isEmpty())
@@ -19,4 +21,6 @@ List<String> errorsList = new ArrayList<>();
 
         return errorsList;
     }
+
+
 }
