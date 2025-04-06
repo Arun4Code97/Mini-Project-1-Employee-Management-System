@@ -1,14 +1,14 @@
-# Start from official OpenJDK image
+# Use official OpenJDK base image
 FROM eclipse-temurin:17-jdk
 
-# Set working directory inside the container
+# Set working directory
 WORKDIR /app
 
-# Copy Maven wrapper & project files
+# Copy all project files
 COPY . .
 
-# Build the app (creates target/*.jar)
-RUN ./mvnw clean package -DskipTests
+# Make Maven wrapper executable + build
+RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 
 # Run the app
 CMD ["java", "-jar", "target/*.jar"]
