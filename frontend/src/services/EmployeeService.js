@@ -1,8 +1,11 @@
 import axios from "axios";
-// Amazon front frond end deployed Url
+// Amazon frond end deployed Url
 //  const REST_API_BASE_URL = 'http://15.206.27.104:8080/api/employees';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/employees';
+// const REST_API_BASE_URL = 'http://localhost:8080/api/employees';
+
+const REST_API_BASE_URL = '/api/employees';
+
  export const listEmployees = () =>{
     return axios.get(REST_API_BASE_URL);
     // Return holds the promise,got by axios.get(url)
